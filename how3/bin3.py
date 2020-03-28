@@ -16,8 +16,7 @@ backend.set_image_data_format('channels_first')
 # %% 数据预处理
 (X_train, Y_train), (X_test, Y_test) = mnist.load_data()
 X_train = X_train.reshape(-1, 1, 28 , 28)/255.
-X_test = X_test.reshapegit remote add origin https://github.com/Binohow/howbin13191201638-outlook.com.git
-git push -u origin master(-1, 1,28, 28)/255.
+X_test = X_test.reshape(-1, 1, 28 , 28)/255.
 Y_train =  np_utils.to_categorical(Y_train, num_classes=10)
 Y_test =  np_utils.to_categorical(Y_test, num_classes=10)
 
