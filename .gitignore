@@ -1,7 +1,3 @@
 *.pyc
-how2\aclImdb\*
-how2\aclImdb\test\*
-how2\aclImdb\trin\*
-how2\aclImdb\**
-how2\aclImdb\
-*.txt
+how2/aclImdb/*
+
